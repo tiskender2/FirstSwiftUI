@@ -13,6 +13,7 @@
 		834455FE24E83D9C0063A255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834455FD24E83D9C0063A255 /* Assets.xcassets */; };
 		8344560124E83D9C0063A255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8344560024E83D9C0063A255 /* Preview Assets.xcassets */; };
 		8344560424E83D9C0063A255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8344560224E83D9C0063A255 /* LaunchScreen.storyboard */; };
+		8344560D24E841020063A255 /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8344560C24E841020063A255 /* LoginUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8344560024E83D9C0063A255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8344560324E83D9C0063A255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8344560524E83D9C0063A255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8344560C24E841020063A255 /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		834455F624E83D9B0063A255 /* ExampleSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8344560B24E840EF0063A255 /* LoginUI */,
 				834455F724E83D9B0063A255 /* AppDelegate.swift */,
 				834455F924E83D9B0063A255 /* SceneDelegate.swift */,
 				834455FB24E83D9B0063A255 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				8344560024E83D9C0063A255 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8344560B24E840EF0063A255 /* LoginUI */ = {
+			isa = PBXGroup;
+			children = (
+				8344560C24E841020063A255 /* LoginUI.swift */,
+			);
+			path = LoginUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				834455F824E83D9B0063A255 /* AppDelegate.swift in Sources */,
 				834455FA24E83D9B0063A255 /* SceneDelegate.swift in Sources */,
 				834455FC24E83D9B0063A255 /* ContentView.swift in Sources */,
+				8344560D24E841020063A255 /* LoginUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

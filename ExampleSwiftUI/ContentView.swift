@@ -10,7 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack(alignment: .topTrailing) {
+            Image("background").resizable().scaledToFill().frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+            Image("man").resizable().frame(width: 40, height: 40).padding(.top,20).padding()
+            LoginUI()
+        }
+     
     }
 }
 
